@@ -60,4 +60,5 @@ En el caso
 $$
 \underline{x} \hspace{0.2cm} \underline{y} \hspace{0.2cm}  \underline{z} \hspace{0.2cm} \underline{w} \hspace{0.2cm} \underline{v} \hspace{0.2cm} \underline{}
 $$
-$x,y,z,w,v,h$ las variables pueden tomar 10 valores distintos
+
+Para $x,y,z,w,v,h$ las variables pueden tomar 10 valores distintos
