@@ -93,3 +93,5 @@ Veamos algunos valores iniciales con $a = 10^n$
 |   5   | 100000 |   30s  |  42179    |
 |   6   | 1000000 |   115s  |  95390   |
 
+![Example Image](graph.png)
+
