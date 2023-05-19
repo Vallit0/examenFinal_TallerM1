@@ -36,3 +36,21 @@ A = \{ a, b, c, d, e, f, g, h, i, j \}
             palabra += A[random.randint(0, 6)]
 ```
 
+4.  Preguntamos ¿Ésta palabra ya fue escrita antes?
+Si la palabra fue escrita entonces la añadimos a un listado de palabras, si no, solamente pasamos a la siguiente 
+y tomamos en cuenta que hubo una comparación. 
+```python
+# Si la palabra no fue generada antes entonces la añadimos
+        if palabra not in palabras:
+            palabras.append(palabra)
+            print(palabra)
+            # Puesto que añadimos una nueva palabra, la contamos
+            contadorGeneral += 1
+
+            #Reset palabra
+            palabra = ""
+        else:
+            palabra = ""
+            comparacionesRepetidas += 1
+```
+
