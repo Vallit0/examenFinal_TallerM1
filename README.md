@@ -95,3 +95,24 @@ Veamos algunos valores iniciales con $a = 10^n$
 
 ![Example Image](graph.png)
 
+## Problema 3: Escribir un programa que reciba $a > 1$ y produzca los primeros 3 pseudo-primos $n > 1$ en la base a. Correrlo con $a = 2$. 🔤
+Para este problema, apoyado del diagrama de flujo anteriormente en las hojas. Podemos realizar de manera iterativa los calculos en Wolfram Matematica. 
+
+Básicamente, se resume en realizar los siguientes pasos. 
+
+- *Método Exhaustivo*
+1. Pedir ingreso de variable a 
+2. Cálculo de
+ 
+$$
+a^n - a
+$$
+
+con n = 1
+
+3. Verificar divisibilidad 
+Si si es divisible, entonces se debe guardar el valor y debemos contar que se encontró. 
+
+
+*Prueba para a = 2* 
+Estos son los valores proporcionados en consola luego de realizar la operación. 
