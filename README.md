@@ -4,8 +4,10 @@ El presente repositorio alberga algunos de los programas utilizados para el exá
 
 ## Problema 2: Calcular $10 \overline{C} 6$ utilizando moldes 🔤
 En primera instancia, sería útil listar algunas de las variables que pueden cambiar. 
-Prácticamente tenemos 6 espacios en los cuales pueden existir moldes. _ _ _ _ _ _
+Prácticamente tenemos 6 espacios en los cuales pueden existir moldes. Para esto, utilizaremos las variables $x,y,z,w,v,h$
+
+_ _ _ _ _ _
 
 $$
-\underline{x} \underline{x} \underline{x} \underline{x} \underline{x}
+\underline{x} \kern \underline{x} \kern \underline{x} \kern \underline{x} \kern \underline{x}
 $$
