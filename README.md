@@ -9,7 +9,7 @@ Prácticamente tenemos 6 espacios en los cuales pueden existir moldes. Para esto
 _ _ _ _ _ _
 
 $$
-\underline{x} \hspace{0.2cm} \underline{x} \hspace{0.2cm}  \underline{x} \hspace{0.2cm} \underline{x} \hspace{0.2cm} \underline{x}
+\underline{x} \hspace{0.2cm} \underline{x} \hspace{0.2cm}  \underline{x} \hspace{0.2cm} \underline{x} \hspace{0.2cm} \underline{x} \hspace{0.2cm} \underline{x}
 $$
 
 Mientras que algunos métodos fueron explicados en las hojas del exámen. En esta pequeña sección trataremos de averiguar el valor final con algunos métodos computacionales con el propósito de a) Probar que el poder computacional es demasiado y b) Tratar de comparar los valores finales. 
@@ -38,7 +38,7 @@ A = \{ a, b, c, d, e, f, g, h, i, j \}
 
 4.  Preguntamos ¿Ésta palabra ya fue escrita antes?
 Si la palabra fue escrita entonces la añadimos a un listado de palabras, si no, solamente pasamos a la siguiente 
-y tomamos en cuenta que hubo una comparación. 
+y tomamos en cuenta que hubo una comparación. (Nota: La cantidad máxima de elementos de una lista en python es 536870912)
 ```python
 # Si la palabra no fue generada antes entonces la añadimos
         if palabra not in palabras:
@@ -54,3 +54,10 @@ y tomamos en cuenta que hubo una comparación.
             comparacionesRepetidas += 1
 ```
 
+5. Realizamos todo lo anterior en un ciclo que se termine hasta un número a de veces. En este caso, se hizo dependiente el ciclo de la cantidad de comparaciones Repetidas. Si hubo una cantidad alta de palabras que ya fueron escritas, entonces es probable que ya se hayan agotado los casos. 
+
+En el caso
+$$
+\underline{x} \hspace{0.2cm} \underline{y} \hspace{0.2cm}  \underline{z} \hspace{0.2cm} \underline{w} \hspace{0.2cm} \underline{v} \hspace{0.2cm} \underline{}
+$$
+$x,y,z,w,v,h$ las variables pueden tomar 10 valores distintos
