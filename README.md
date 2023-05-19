@@ -82,5 +82,5 @@ while (counter <= a):
 ``` 
 Computacionalmente hablando, ésto es horrible para optimizar un programa. 💀 Ese exactamente el cometido de éste programa: Morir en el intento 🏴
 
-Veamos algunos valores iniciales con $ a = 10^n$
+Veamos algunos valores iniciales con $a = 10^n$
 
