@@ -63,8 +63,24 @@ $$
 \underline{x} \hspace{0.2cm} \underline{y} \hspace{0.2cm}  \underline{z} \hspace{0.2cm} \underline{w} \hspace{0.2cm} \underline{v} \hspace{0.2cm} \underline{h}
 $$
 
-
+     
 Para $x,y,z,w,v,h$ las variables pueden tomar 10 x 9 x 8 x 7 x 6 x 5 valores distintos, así que utilizaremos 151200 (Que es menor que 536870912) Cómo valor para detener el ciclo. 
+```python
+while (counter <= 10):
+        for i in range(6):
+            palabra += A[random.randint(0,6)]
+        if palabra not in palabras:
+            palabras.append(palabra)
+            print(palabra)
+            contadorGeneral += 1
+            palabra = ""
+        else:
+            palabra = ""
+            counter += 1
+    print("--- Iteraciones Terminadas -----")
+    print(contadorGeneral)
+``` 
+Computacionalmente hablando, ésto es horrible para optimizar un programa. 💀 pero ese exactamente el cometido de éste programa. Morir en el intento 🏴
 
-Computacionalmente hablando, ésto es horrible para optimizar un programa. 💀 Pero necesitamos demostrarlo de alguna forma. 
+Veamos algunos valores iniciales con $ a = 10^1$
 
