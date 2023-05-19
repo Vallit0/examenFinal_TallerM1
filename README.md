@@ -64,4 +64,7 @@ $$
 $$
 
 
-Para $x,y,z,w,v,h$ las variables pueden tomar 10 x 9 x 8 x 7 x 6 x 5 valores distintos
+Para $x,y,z,w,v,h$ las variables pueden tomar 10 x 9 x 8 x 7 x 6 x 5 valores distintos, así que utilizaremos 151200 (Que es menor que 536870912) Cómo valor para detener el ciclo. 
+
+Computacionalmente hablando, ésto es horrible para optimizar un programa. 💀 Pero necesitamos demostrarlo de alguna forma. 
+
