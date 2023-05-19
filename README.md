@@ -17,10 +17,12 @@ Mientras que algunos métodos fueron explicados en las hojas del exámen. En est
 ### Método 1: Fuerza Bruta 💥
 Cómo lo dice el título de este método, iteraremos sobre todas las posibles palabras que pueden ser formadas. Éste constará de los siguientes pasos: 
 - *Método*
-1. Creamos un conjunto 
-$$ 
+1. Creamos un conjunto y una lista de palabras que se crearán a partir de este mismo
+
+
 A = \{ a, b, c, d, e, f, g, h, i, j \} 
-$$ 
+
+
 ```python
 # Conjunto
     A = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j"]
