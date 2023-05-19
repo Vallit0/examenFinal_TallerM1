@@ -11,3 +11,16 @@ _ _ _ _ _ _
 $$
 \underline{x} \hspace{0.2cm} \underline{x} \hspace{0.2cm}  \underline{x} \hspace{0.2cm} \underline{x} \hspace{0.2cm} \underline{x}
 $$
+
+Mientras que algunos métodos fueron explicados en las hojas del exámen. En esta pequeña sección trataremos de averiguar el valor final con algunos métodos computacionales con el propósito de a) Probar que el poder computacional es demasiado y b) Tratar de comparar los valores finales. 
+
+### Método 1: Fuerza Bruta 💥
+Cómo lo dice el título de este método, iteraremos sobre todas las posibles palabras que pueden ser formadas. Éste constará de los siguientes pasos: 
+- Método
+1. Crear una palabra 
+```python
+#Generamos una palabra al azar
+        for i in range(6):
+            palabra += A[random.randint(0, 6)]
+```
+
