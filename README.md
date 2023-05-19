@@ -102,17 +102,54 @@ Básicamente, se resume en realizar los siguientes pasos.
 
 - *Método Exhaustivo*
 1. Pedir ingreso de variable a 
-2. Cálculo de
+```wolfram
+a = ToExpression[InputString["Ingrese el numero base"]]
+n = 1
+counter = 0
+``` 
+
+3. Cálculo de
  
 $$
 a^n - a
 $$
-
+```wolfram
+While[counter <= 3,
+    x = a^n - a
+    If[Mod[x, n] == 0,
+      counter += 1;
+      Print[x],
+      n += 1
+    ]
+``` 
 con n = 1
 
 3. Verificar divisibilidad 
 Si si es divisible, entonces se debe guardar el valor y debemos contar que se encontró. 
-
-
+```wolfram
+While[counter <= 3,
+    x = a^n - a
+    If[Mod[x, n] == 0,
+      counter += 1;
+      Print[x],
+      n += 1
+    ]
+``` 
+Entonces, tenemos un resultado final del programa cómo: 
+a = ToExpression[InputString["Ingrese el numero base"]]
+n = 1
+counter = 0
+```wolfram
+If[a > 1,
+  While[counter <= 3,
+    x = a^n - a
+    If[Mod[x, n] == 0,
+      counter += 1;
+      Print[x],
+      n += 1
+    ]
+  ]
+]
+``` 
 *Prueba para a = 2* 
 Estos son los valores proporcionados en consola luego de realizar la operación. 
