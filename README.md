@@ -9,5 +9,5 @@ Prácticamente tenemos 6 espacios en los cuales pueden existir moldes. Para esto
 _ _ _ _ _ _
 
 $$
-\underline{x} \kern \underline{x} \kern \underline{x} \kern \underline{x} \kern \underline{x}
+\underline{x} \hspace{0.2cm} \underline{x} \hspace{0.2cm}  \underline{x} \hspace{0.2cm} \underline{x} \hspace{0.2cm} \underline{x}
 $$
