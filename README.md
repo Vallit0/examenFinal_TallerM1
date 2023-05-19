@@ -4,6 +4,6 @@ El presente repositorio alberga algunos de los programas utilizados para el exá
 
 ## Problema 2: Calcular 10 
 
-```latex
-\frac{{a + b}}{{2}} = c
-```
+$$
+x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
+$$
