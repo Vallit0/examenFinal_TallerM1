@@ -84,3 +84,12 @@ Computacionalmente hablando, ésto es horrible para optimizar un programa. 💀 
 
 Veamos algunos valores iniciales con $a = 10^n$
 
+|   n   | 10^n | tiempo | valor final |
+|-------|------|--------|-------------|
+|   1   |  10  |   1s   |    2022     |
+|   2   | 100  |   1s  |    4995    |
+|   3   | 1000 |   3s  |  14780    |
+|   4   | 10000 |   18s  |  41888    |
+|   5   | 100000 |   30s  |  42179    |
+|   6   | 1000000 |   115s  |  95390   |
+
