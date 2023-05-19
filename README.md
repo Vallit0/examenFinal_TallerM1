@@ -66,7 +66,7 @@ $$
      
 Para $x,y,z,w,v,h$ las variables pueden tomar 10 x 9 x 8 x 7 x 6 x 5 valores distintos, así que utilizaremos 151200 (Que es menor que 536870912) Cómo valor para detener el ciclo. 
 ```python
-while (counter <= 10):
+while (counter <= a):
         for i in range(6):
             palabra += A[random.randint(0,6)]
         if palabra not in palabras:
@@ -80,7 +80,7 @@ while (counter <= 10):
     print("--- Iteraciones Terminadas -----")
     print(contadorGeneral)
 ``` 
-Computacionalmente hablando, ésto es horrible para optimizar un programa. 💀 pero ese exactamente el cometido de éste programa. Morir en el intento 🏴
+Computacionalmente hablando, ésto es horrible para optimizar un programa. 💀 Ese exactamente el cometido de éste programa: Morir en el intento 🏴
 
-Veamos algunos valores iniciales con $ a = 10^1$
+Veamos algunos valores iniciales con $ a = 10^n$
 
