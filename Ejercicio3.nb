@@ -1,0 +1,11 @@
+Notebook[{Cell[
+BoxData[{RowBox[{"a"," ","="," ",RowBox[{"ToExpression","[",RowBox[
+{"InputString","[","\"Ingrese el numero base\"","]"}],"]"}]}],"\n",RowBox[{"n"," ","="," ","1"}],"\n",RowBox[
+{"counter"," ","="," ","0"}],RowBox[{"\n","\n"}],RowBox[{RowBox[{"If","[",RowBox[
+{RowBox[{"a"," ",">"," ","1"}],",","\n","  ",RowBox[{"While","[",RowBox[{RowBox[{"counter"," ","\[LessEqual]"," ","3"}],",","\n","    ",RowBox[
+{"x"," ","="," ",RowBox[{RowBox[{"a","^","n"}]," ","-"," ",RowBox[{"a","\n","    ",RowBox[
+{"If","[",RowBox[{RowBox[{RowBox[{"Mod","[",RowBox[{"x",","," ","n"}],"]"}]," ","=="," ","0"}],",","\n","      ",RowBox[
+{RowBox[{"counter"," ","+="," ","1"}],";","\n","      ",RowBox[{"Print","[","x","]"}]}],",","\n","      ",RowBox[
+{"n"," ","+="," ","1"}]}],"\n","    ","]"}]}]}]}]}],"\n","  ","]"}]}],"\n","]"}],"\n"}]}],
+"Input",ExpressionUUID -> "24654e60-b1ec-4ed8-b5ba-777b30c11ccb"]},StyleDefinitions -> "Default.nb",
+FrontEndVersion -> "13.2 for Wolfram Cloud 1.65 (April 11, 2023)"]
