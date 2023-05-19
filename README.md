@@ -18,7 +18,9 @@ Mientras que algunos métodos fueron explicados en las hojas del exámen. En est
 Cómo lo dice el título de este método, iteraremos sobre todas las posibles palabras que pueden ser formadas. Éste constará de los siguientes pasos: 
 - *Método*
 1. Creamos un conjunto 
-$$ A = \{ a, b, c, d, e, f, g, h, i, j \} $$ 
+$$ 
+A = \{ a, b, c, d, e, f, g, h, i, j \} 
+$$ 
 ```python
 # Conjunto
     A = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j"]
