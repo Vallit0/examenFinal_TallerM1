@@ -33,7 +33,7 @@ A = \{ a, b, c, d, e, f, g, h, i, j \}
 ```python
 #Generamos una palabra al azar
         for i in range(6):
-            palabra += A[random.randint(0, 6)]
+            palabra += A[random.randint(0, i)]
 ```
 
 4.  Preguntamos ¿Ésta palabra ya fue escrita antes?
@@ -57,8 +57,11 @@ y tomamos en cuenta que hubo una comparación. (Nota: La cantidad máxima de ele
 5. Realizamos todo lo anterior en un ciclo que se termine hasta un número a de veces. En este caso, se hizo dependiente el ciclo de la cantidad de comparaciones Repetidas. Si hubo una cantidad alta de palabras que ya fueron escritas, entonces es probable que ya se hayan agotado los casos. 
 
 En el caso
+
+
 $$
-\underline{x} \hspace{0.2cm} \underline{y} \hspace{0.2cm}  \underline{z} \hspace{0.2cm} \underline{w} \hspace{0.2cm} \underline{v} \hspace{0.2cm} \underline{}
+\underline{x} \hspace{0.2cm} \underline{y} \hspace{0.2cm}  \underline{z} \hspace{0.2cm} \underline{w} \hspace{0.2cm} \underline{v} \hspace{0.2cm} \underline{h}
 $$
+
 
 Para $x,y,z,w,v,h$ las variables pueden tomar 10 valores distintos
